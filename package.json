@@ -1,6 +1,6 @@
 {
   "name": "@coleblender/random",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This package is designed to help with various applications of randomness in JavaScript.",
   "private": false,
   "type": "module",
