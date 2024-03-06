@@ -1,0 +1,38 @@
+{
+  "name": "@coleblender/random",
+  "version": "0.0.1",
+  "description": "This package is designed to help with various applications of randomness in JavaScript.",
+  "private": false,
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "vitest",
+    "test": "vitest run",
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc",
+    "ci": "pnpm lint && pnpm test && pnpm build",
+    "release": "pnpm lint && pnpm test && pnpm build && changeset publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ColeBlender/random"
+  },
+  "homepage": "https://github.com/ColeBlender/random",
+  "keywords": [
+    "random",
+    "pseudorandom",
+    "randomness",
+    "randomize",
+    "randomization"
+  ],
+  "author": "Cole Blender",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3",
+    "vitest": "^1.3.1"
+  }
+}
