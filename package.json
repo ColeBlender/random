@@ -17,9 +17,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ColeBlender/random"
+    "url": "https://github.com/ColeBlender/random.git"
   },
-  "homepage": "https://github.com/ColeBlender/random",
+  "homepage": "https://github.com/ColeBlender/random#readme",
   "keywords": [
     "random",
     "pseudorandom",
