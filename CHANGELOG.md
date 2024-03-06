@@ -1,5 +1,11 @@
 # @coleblender/random
 
+## 1.0.0
+
+### Major Changes
+
+- This package helps with common uses for Math.random()
+
 ## 0.0.3
 
 ### Patch Changes
