@@ -1,0 +1,5 @@
+---
+"@coleblender/random": patch
+---
+
+init
