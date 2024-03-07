@@ -1,4 +1,4 @@
-export const shuffle = (array: unknown[]) => {
+export const shuffle = <T>(array: T[]) => {
   array = array.slice();
   let currentIndex = array.length;
   let temporaryValue;
@@ -20,7 +20,7 @@ export const index = (arrayLength: number) => {
   return Math.floor(Math.random() * arrayLength);
 };
 
-export const choice = (array: unknown[]) => {
+export const choice = <T>(array: T[]) => {
   const randomIndex = index(array.length);
   return array[randomIndex];
 };

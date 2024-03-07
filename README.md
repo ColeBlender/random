@@ -24,13 +24,13 @@ import random from "@coleblender/random"
 
 ### Functions
 
-#### 1. random.shuffle(array: unknown[])
+#### 1. random.shuffle(array: T[])
 
 ```bash
    const shuffledArray = random.shuffle(array)
 ```
 
-- Accepts array: unknown[]
+- Accepts array: T[]
 - Returns shuffled array
 - Does not modify original array
 
@@ -43,13 +43,13 @@ const randomIndex = random.index(array.length)
 - Accepts arrayLength: number
 - Returns random index given array length
 
-#### 3. random.choice(array: unknown[])
+#### 3. random.choice(array: T[])
 
 ```bash
 const randomChoice = random.choice(array)
 ```
 
-- Accepts array: unknown
+- Accepts array: T[]
 - Returns random element from array
 
 #### 4. random.int(min: number, max: number)
