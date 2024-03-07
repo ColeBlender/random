@@ -1,4 +1,5 @@
 export const shuffle = (array: unknown[]) => {
+  array = array.slice();
   let currentIndex = array.length;
   let temporaryValue;
   let randomIndex;
